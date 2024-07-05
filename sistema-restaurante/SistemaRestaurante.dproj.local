@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/06/28 13:25:44.000.863,=C:\Users\joaor\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/06/28 13:47:59.000.954,C:\Users\joaor\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\SistemaRestaurante.View.Principal.pas</Transaction>
+    <Transaction>2024/06/28 13:47:59.000.954,C:\Users\joaor\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\SistemaRestaurante.View.Principal.dfm</Transaction>
+    <Transaction>2024/06/28 13:49:09.000.661,C:\Users\joaor\Documents\Embarcadero\Studio\Projects\Project3.dproj=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\SistemaRestaurante.dproj</Transaction>
+    <Transaction>2024/06/28 14:10:04.000.715,=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas</Transaction>
+    <Transaction>2024/06/28 14:11:44.000.767,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\Base.View.pas</Transaction>
+    <Transaction>2024/06/28 14:11:44.000.767,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.dfm=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\Base.View.dfm</Transaction>
+    <Transaction>2024/06/28 15:52:53.000.980,=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas</Transaction>
+    <Transaction>2024/06/28 15:54:10.000.919,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\Base.View.Tdi.pas</Transaction>
+    <Transaction>2024/06/28 15:54:10.000.919,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.dfm=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\Base.View.Tdi.dfm</Transaction>
+    <Transaction>2024/06/28 15:55:19.000.976,=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas</Transaction>
+    <Transaction>2024/06/28 15:57:18.000.191,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\Base.View.Tdi.dfm=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\TDI\Base.View.Tdi.dfm</Transaction>
+    <Transaction>2024/06/28 15:57:18.000.191,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\Base.View.Tdi.pas=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\TDI\Base.View.Tdi.pas</Transaction>
+    <Transaction>2024/06/28 15:59:36.000.447,=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas</Transaction>
+    <Transaction>2024/06/28 16:00:51.000.164,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.dfm=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\TDI\Filial.View.Tdi.dfm</Transaction>
+    <Transaction>2024/06/28 16:00:51.000.164,C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\src\View\TDI\Filial.View.Tdi.pas</Transaction>
+    <Transaction>2024/07/01 10:40:33.000.413,=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit1.pas</Transaction>
+    <Transaction>2024/07/01 13:05:42.000.565,=C:\Users\joaor\Desktop\Amanda\Programas Delphi\sistema-restaurante\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

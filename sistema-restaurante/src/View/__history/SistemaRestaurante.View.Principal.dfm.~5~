@@ -1,0 +1,201 @@
+object ViewPrincipal: TViewPrincipal
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'Sistema Restaurante'
+  ClientHeight = 589
+  ClientWidth = 887
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlTopo: TPanel
+    Left = 0
+    Top = 0
+    Width = 887
+    Height = 57
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 16752234
+    ParentBackground = False
+    TabOrder = 0
+  end
+  object pnlBackground: TPanel
+    Left = 0
+    Top = 57
+    Width = 887
+    Height = 532
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+    ExplicitHeight = 493
+    object pnlMenu: TPanel
+      Left = 0
+      Top = 0
+      Width = 185
+      Height = 532
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = 6052956
+      ParentBackground = False
+      TabOrder = 0
+      ExplicitHeight = 493
+    end
+    object pnlTDI: TPanel
+      Left = 185
+      Top = 0
+      Width = 702
+      Height = 532
+      Align = alClient
+      TabOrder = 1
+      ExplicitTop = 6
+    end
+  end
+  object pnlPedidos: TPanel
+    Left = 0
+    Top = 130
+    Width = 185
+    Height = 60
+    BevelOuter = bvNone
+    Color = 6052956
+    ParentBackground = False
+    TabOrder = 2
+    object SpeedButtonPedidos: TSpeedButton
+      Left = 0
+      Top = 0
+      Width = 185
+      Height = 60
+      Align = alClient
+      Caption = '[ PEDIDOS ]'
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      OnClick = SpeedButtonPedidosClick
+      ExplicitLeft = -6
+      ExplicitTop = 6
+      ExplicitHeight = 64
+    end
+  end
+  object pnlCardapio: TPanel
+    Left = 0
+    Top = 200
+    Width = 185
+    Height = 63
+    BevelOuter = bvNone
+    Color = 6052956
+    ParentBackground = False
+    TabOrder = 3
+    object SpeedButtonCardapio: TSpeedButton
+      Left = 0
+      Top = 0
+      Width = 185
+      Height = 63
+      Align = alClient
+      Caption = '[ CARD'#193'PIO ]'
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      OnClick = SpeedButtonCardapioClick
+      ExplicitLeft = -5
+      ExplicitTop = 1
+      ExplicitWidth = 184
+      ExplicitHeight = 61
+    end
+  end
+  object pnlClientes: TPanel
+    Left = 1
+    Top = 60
+    Width = 184
+    Height = 63
+    BevelOuter = bvNone
+    Color = 6052956
+    ParentBackground = False
+    TabOrder = 4
+    object SpeedButtonClientes: TSpeedButton
+      Left = 0
+      Top = 0
+      Width = 184
+      Height = 63
+      Align = alClient
+      Caption = '[ CLIENTES ]'
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      ExplicitLeft = -6
+    end
+  end
+  object pnlEstoque: TPanel
+    Left = 1
+    Top = 270
+    Width = 184
+    Height = 63
+    BevelOuter = bvNone
+    Color = 6052956
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 5
+    object SpeedButtonEstoque: TSpeedButton
+      Left = 0
+      Top = 0
+      Width = 184
+      Height = 63
+      Align = alClient
+      Caption = '[ ESTOQUE ]'
+      Flat = True
+      ExplicitLeft = -6
+      ExplicitTop = -1
+    end
+  end
+  object pnlRelatorios: TPanel
+    Left = 1
+    Top = 339
+    Width = 184
+    Height = 63
+    BevelOuter = bvNone
+    Color = 6052956
+    ParentBackground = False
+    TabOrder = 6
+    object SpeedButtonRelatorios: TSpeedButton
+      Left = 0
+      Top = 0
+      Width = 184
+      Height = 63
+      Align = alClient
+      Caption = '[ RELAT'#211'RIOS ]'
+      Flat = True
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+      ExplicitLeft = 80
+      ExplicitTop = 24
+      ExplicitWidth = 23
+      ExplicitHeight = 22
+    end
+  end
+end

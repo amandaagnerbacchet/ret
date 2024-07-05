@@ -1,0 +1,110 @@
+unit SistemaRestaurante.View.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.Actions, Vcl.ActnList, Base.View,
+  Vcl.Menus, Vcl.ExtCtrls, Vcl.StdCtrls, Unit1, Unit2, Vcl.Buttons,
+  Vcl.Imaging.jpeg;
+
+type
+  TViewPrincipal = class(TBaseView)
+    pnlTopo: TPanel;
+    pnlBackground: TPanel;
+    pnlMenu: TPanel;
+    pnlTDI: TPanel;
+    SpeedButtonPedidos: TSpeedButton;
+    pnlCardapio: TPanel;
+    SpeedButtonCardapio: TSpeedButton;
+    pnlClientes: TPanel;
+    SpeedButtonClientes: TSpeedButton;
+    pnlEstoque: TPanel;
+    SpeedButtonEstoque: TSpeedButton;
+    pnlPedidos: TPanel;
+    pnlRelatorios: TPanel;
+    SpeedButtonRelatorios: TSpeedButton;
+    pnlFinanceiro: TPanel;
+    SpeedButtonFinanceiro: TSpeedButton;
+    pnlFornecedores: TPanel;
+    SpeedButton1: TSpeedButton;
+    pnlMesas: TPanel;
+    SpeedButtonMesas: TSpeedButton;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    SpeedButton2: TSpeedButton;
+    Image1: TImage;
+    procedure Button1Click(Sender: TObject);
+    procedure SpeedButtonPedidosClick(Sender: TObject);
+    procedure SpeedButtonCardapioClick(Sender: TObject);
+    procedure SpeedButtonClientesClick(Sender: TObject);
+    procedure Image1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ViewPrincipal: TViewPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TViewPrincipal.Button1Click(Sender: TObject);
+begin
+  inherited;
+       teste := Tteste.Create(Self); // Cria uma instância do novo formulário
+  try
+    teste.ShowModal; // Mostra o novo formulário de maneira modal
+  finally
+    teste.Free; // Libera a memória quando o formulário é fechado
+end;
+end;
+
+procedure TViewPrincipal.SpeedButtonPedidosClick(Sender: TObject);
+begin
+  inherited;
+      teste := Tteste.Create(Self); // Cria uma instância do novo formulário
+  try
+    teste.ShowModal; // Mostra o novo formulário de maneira modal
+  finally
+    teste.Free; // Libera a memória quando o formulário é fechado
+end;
+end;
+
+procedure TViewPrincipal.Image1Click(Sender: TObject);
+begin
+  inherited;
+          teste := Tteste.Create(Self); // Cria uma instância do novo formulário
+  try
+    teste.ShowModal; // Mostra o novo formulário de maneira modal
+  finally
+    teste.Free; // Libera a memória quando o formulário é fechado
+    end;
+end;
+
+procedure TViewPrincipal.SpeedButtonCardapioClick(Sender: TObject);
+begin
+  inherited;
+      teste := Tteste.Create(Self); // Cria uma instância do novo formulário
+  try
+    teste.ShowModal; // Mostra o novo formulário de maneira modal
+  finally
+    teste.Free; // Libera a memória quando o formulário é fechado
+end;
+end;
+
+procedure TViewPrincipal.SpeedButtonClientesClick(Sender: TObject);
+begin
+  inherited;
+         CadastroClientes := TCadastroClientes.Create(Self); // Cria uma instância do novo formulário
+  try
+    CadastroClientes.ShowModal; // Mostra o novo formulário de maneira modal
+  finally
+    CadastroClientes.Free; // Libera a memória quando o formulário é fechado
+end;
+end;
+
+end.

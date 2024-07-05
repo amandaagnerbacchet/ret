@@ -1,0 +1,57 @@
+object ViewPrincipal: TViewPrincipal
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderStyle = bsNone
+  Caption = 'Sistema Restaurante'
+  ClientHeight = 550
+  ClientWidth = 887
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlTopo: TPanel
+    Left = 0
+    Top = 0
+    Width = 887
+    Height = 57
+    Align = alTop
+    BevelOuter = bvNone
+    Color = 16752234
+    ParentBackground = False
+    TabOrder = 0
+  end
+  object pnlBackground: TPanel
+    Left = 0
+    Top = 57
+    Width = 887
+    Height = 493
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+    object pnlMenu: TPanel
+      Left = 0
+      Top = 0
+      Width = 185
+      Height = 493
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = 65408
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object pnlTDI: TPanel
+      Left = 185
+      Top = 0
+      Width = 702
+      Height = 493
+      Align = alClient
+      TabOrder = 1
+    end
+  end
+end

@@ -1,0 +1,16 @@
+program SistemaRestaurante;
+
+uses
+  Vcl.Forms,
+  SistemaRestaurante.View.Principal in 'src\View\SistemaRestaurante.View.Principal.pas' {ViewPrincipal},
+  Base.View in 'src\View\Base.View.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TViewPrincipal, ViewPrincipal);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

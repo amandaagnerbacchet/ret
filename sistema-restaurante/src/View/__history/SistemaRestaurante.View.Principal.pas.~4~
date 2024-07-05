@@ -1,0 +1,29 @@
+unit SistemaRestaurante.View.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.Actions, Vcl.ActnList, Base.View,
+  Vcl.Menus, Vcl.ExtCtrls, Vcl.StdCtrls, Unit1;
+
+type
+  TViewPrincipal = class(TBaseView)
+    pnlTopo: TPanel;
+    pnlBackground: TPanel;
+    pnlMenu: TPanel;
+    pnlTDI: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ViewPrincipal: TViewPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+end.
